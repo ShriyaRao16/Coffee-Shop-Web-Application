@@ -1,0 +1,289 @@
+body{
+    margin: 0px ;
+}
+.coffee-header{
+    position: fixed;
+    left:0px;
+    right: 0px;
+    height:100px;
+    width: 100%;
+    background-color: #0a2d42;
+    align-items: center;
+    z-index:100; 
+}
+
+.div-logo{
+    height: 100%;
+    text-align: center;
+    margin: 10px;
+    float: left;
+
+
+}
+.logo-text{
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+.coffee-nav{
+    float: right;
+   height: 100%;
+
+
+}
+.coffee-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:700;
+    margin-left: 30px;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-top: 12%;
+    display: inline-block;
+}
+.site-content{
+    top: 78px;
+    width: 100%;
+    font-size:15px;
+
+    position:absolute;
+}
+.image-content{
+    background-image: url("background-image.jpg");
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    color:rgb(135, 189, 247) ;
+     font-family: 'Brush Script MT', cursive;
+
+}
+.quote{
+    position: relative;
+
+
+}
+.card-list{
+    width: 100%;
+    text-align: center;
+}
+#product{
+    text-align: center;
+    font-size: 30px;
+
+}
+.card{
+    width: 22%;
+    padding: 1.5%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.card img{
+    width: 250px;
+    height: 251px;
+    border-radius: 10px;
+     position: relative;
+}
+.card-list::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.order-section{
+    margin-top: 140px;
+}
+
+#order{
+    position: relative;
+  margin-top: 140px;
+    
+}
+.form{
+    width: 200px;
+    margin: 0 auto;
+    font-size: 18px;
+
+}
+.form input, .form select{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem ;
+    font-size: 4rem;
+}
+.heading span{
+    color: #e8491d;
+    text-transform: uppercase;
+
+}
+/* ================= CONTACT US SECTION ================= */
+
+.contact-section {
+    background: rgb(250, 220, 180);
+    padding: 80px 20px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contact-section h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.contact-section .subtitle {
+    color: #888;
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+
+/* Centered container */
+.contact-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Individual boxes */
+.contact-box {
+    flex: 1;
+    padding: 45px 25px;
+    color: white;
+    text-align: center;
+}
+
+.contact-box i {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact-box h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.contact-box p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Colors */
+.contact-call {
+    background-color: #1ec9c3;
+}
+
+.contact-quote {
+    background-color: #e2983e;
+}
+
+.contact-email {
+    background-color: #f49999;
+}
+/* ================= ABOUT SECTION ================= */
+
+.about {
+    background: #000;
+    padding: 70px 8%;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    color: #c7a17a;
+}
+
+.about-container {
+    display: flex;
+    background: #0a2d42;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;          /* space around image like inspo */
+    box-sizing: border-box;
+    background: #0a2d42;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;           /* ⬅ image decides height */
+    max-width: 100%;
+    object-fit: contain;    /* ⬅ NO CROP */
+}
+
+
+.about-content {
+    flex: 1;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* ✅ vertical center */
+}
+
+
+.about-content h3 {
+    color: bisque;          /* ✅ bisque color */
+    text-align: left;       /* ✅ left aligned */
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    text-align: left;       /* ✅ proper alignment */
+    max-width: 420px;       /* ✅ prevents long lines */
+    line-height: 1.8;
+    margin-bottom: 18px;
+    color: #e0e0e0;
+}
+
+
+/* BUTTON */
+.about-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 30px;
+    background: #c7a17a;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+    align-self: flex-start;   /* ✅ button aligns with text */
+    margin-top: 10px;
+}
+
+.about-btn:hover {
+    background: #b08c63;
+}
+
+
