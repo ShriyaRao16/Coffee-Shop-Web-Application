@@ -41,11 +41,11 @@ coffee-shop-website/
 Follow these simple steps to run the project on your system:
 1️⃣ Clone the Repository:
 ```
-git clone https://github.com/your-username/coffee-shop-website.git
+git clone https://github.com/ShriyaRao16/Coffee-Shop-Web-Application.git
 ```
 2️⃣ Navigate to the Project Folder
 ```
-cd coffee-shop-website
+cd Coffee-Shop-Web-Application
 ```
 3️⃣ Open in Browser
 •Double-click on index.html
