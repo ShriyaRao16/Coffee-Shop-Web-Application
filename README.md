@@ -1,5 +1,5 @@
 # Coffee-Shop-Web-Application
-A responsive and visually appealing Coffee Shop website built using HTML, CSS, and JavaScript.
+A responsive and visually appealing Coffee Shop website built using HTML, CSS.
 This project showcases a modern café-style landing page with product listings, an order form, about section, and contact details — inspired by popular café culture in India.
 
 # Project Overview
@@ -9,15 +9,14 @@ On page load, users are greeted with a welcome alert, giving a warm café-style 
 
 Features
 
-•Welcome alert on page load<br>
-•Fixed navigation bar with smooth section access<br>
-•Product cards with images, descriptions, and pricing (₹)<br>
-•Online order form integration (JotForm)<br>
-•Hero section with background image and quote<br>
-•About Us section explaining coffee craftsmanship<br>
-•Contact section with call, social, and email info<br>
-•Clean layout using Flexbox and floats<br>
-•Responsive-friendly structure (viewport enabled)<br>
+•📢Welcome alert on page load<br>
+•🧭Fixed navigation bar with smooth section access<br>
+•☕Product cards with images, descriptions, and pricing (₹)<br>
+•🛒Online order form integration (JotForm)<br>
+•📖About Us section explaining coffee craftsmanship<br>
+•📞Contact section with call, social, and email info<br>
+•🎨Clean layout using Flexbox and floats<br>
+•📱Responsive-friendly structure (viewport enabled)<br>
 JotForm – Embedded order form<br>
 
 # 📂 Project Structure
