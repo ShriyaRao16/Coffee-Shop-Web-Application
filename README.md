@@ -59,6 +59,11 @@ OR
 •Replace the JotForm link with your own order form<br>
 •Update contact details and social handles
 
+Live Website link:
+```
+https://shriyarao16.github.io/Coffee-Shop-Web-Application/
+````
+
 # 📄 License
 This project is open-source and free to use for learning, academic, and personal portfolio purposes.
 
