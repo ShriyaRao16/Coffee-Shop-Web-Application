@@ -47,9 +47,9 @@ git clone https://github.com/ShriyaRao16/Coffee-Shop-Web-Application.git
 cd Coffee-Shop-Web-Application
 ```
 3️⃣ Open in Browser
-•Double-click on index.html
+•Double-click on index.html<br>
 OR
-•Right-click → Open with → Chrome / Edge / Firefox
+•Right-click → Open with → Chrome / Edge / Firefox<br>
 
 # Customization Tips
 •Update prices in index.html under the product cards<b4>
